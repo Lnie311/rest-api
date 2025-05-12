@@ -1,0 +1,106 @@
+GET http://localhost:5000/api/notes
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-05-11T155632.200.json
+
+###
+
+GET http://localhost:5000/api/notes
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-05-11T155426.200.json
+
+###
+
+GET http://localhost:5000/api/notes/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T155354.200.json
+
+###
+
+POST http://localhost:5000/api/notes/
+Content-Type: application/json
+Content-Length: 57
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Test",
+  "content": "Ich teste die API!!"
+}
+
+<> 2025-05-11T155333.400.json
+
+###
+
+POST http://localhost:5000/api/notes/
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Einkaufen",
+  "content": "Milch, Brot, Eier"
+}
+
+<> 2025-05-11T155242.400.json
+
+###
+
+GET http://localhost:5000/api/notes/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T154818.200.json
+
+###
+
+GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T154750.200.html
+
+###
+
+GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T154740.200.html
+
+###
+
+GET http://localhost:5000/api/users/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T154302.404.html
+
+###
+
+GET http://127.0.0.1:5000/api/users/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-11T154119.404.html
+
+###
+
